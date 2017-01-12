@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetSure_Exam_API", "PetSure_Exam_API\PetSure_Exam_API.csproj", "{C661F61B-1336-4616-BAD7-50D1C26D09D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{77147F78-D992-4E2E-A8FC-D26079436B23}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PetSure_Exam_Website", "PetSure_Exam_Website\", "{1752FF92-4A6A-49E4-BD23-5756FEA60B84}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_65423"
+		Debug.AspNetCompiler.PhysicalPath = "PetSure_Exam_Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65423\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_65423"
+		Release.AspNetCompiler.PhysicalPath = "PetSure_Exam_Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65423\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "65423"
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C661F61B-1336-4616-BAD7-50D1C26D09D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C661F61B-1336-4616-BAD7-50D1C26D09D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C661F61B-1336-4616-BAD7-50D1C26D09D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C661F61B-1336-4616-BAD7-50D1C26D09D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77147F78-D992-4E2E-A8FC-D26079436B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77147F78-D992-4E2E-A8FC-D26079436B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77147F78-D992-4E2E-A8FC-D26079436B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77147F78-D992-4E2E-A8FC-D26079436B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1752FF92-4A6A-49E4-BD23-5756FEA60B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1752FF92-4A6A-49E4-BD23-5756FEA60B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1752FF92-4A6A-49E4-BD23-5756FEA60B84}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1752FF92-4A6A-49E4-BD23-5756FEA60B84}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
